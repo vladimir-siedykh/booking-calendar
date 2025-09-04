@@ -28,6 +28,14 @@ Beautiful, fast, and customizable booking calendar UI for Next.js with Cal.com v
 - TypeScript throughout
 - Radix primitives under the hood via the shadcn components
 
+## Performance
+
+- Prefetch: As the widget nears the viewport, it prefetches the whole visible month’s available slots so switching days feels instant.
+- Intersection Observer: Uses the browser’s `IntersectionObserver` with a `rootMargin` of ~500px to start work before the user sees the calendar.
+- Local Filtering: Clicking a day filters prefetched data locally; it only calls the API again if that specific day wasn’t covered or needs refresh.
+- Smooth UX: Slot list shows skeletons during loading; the widget auto‑scrolls on step changes (calendar ↔ form ↔ success) to keep context.
+- No Setup Needed: This all runs automatically — just render `BookingWidget` and configure your event type and API routes.
+
 ## What You Copy
 
 Copy these folders into your Next.js app:
