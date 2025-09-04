@@ -4,6 +4,11 @@ Beautiful, fast, and customizable booking calendar UI for Next.js with Cal.com v
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-ready-blue)
+[![Live Demo](https://img.shields.io/badge/demo-live-green)](https://vladimirsiedykh.com/contact)
+
+## Live Preview
+
+- Live on my site: https://vladimirsiedykh.com/contact
 
 ## Screenshots
 
